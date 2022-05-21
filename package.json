@@ -1,0 +1,14 @@
+{
+  "name": "notours",
+  "version": "1.0.0",
+  "description": "sass layout",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass assets/sass/main.scss assets/css/main.css -w"
+  },
+  "author": "pallavi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
